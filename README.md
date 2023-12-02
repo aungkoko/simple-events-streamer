@@ -32,3 +32,5 @@ payload {
 * go the receiver client and run ```go run main.go``` , it will listen the stream data from the gRPC server and will display the data.
 You can run client as much as you want in your terminal.
 
+* then call the events API to send data to server and stream, you will see the stream data in terminal
+
