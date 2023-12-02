@@ -29,4 +29,6 @@ payload {
 	"description": "ak kicks the ball"
 }
 ```
+* go the receiver client and run ```go run main.go``` , it will listen the stream data from the gRPC server and will display the data.
+You can run client as much as you want in your terminal.
 
