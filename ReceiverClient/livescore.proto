@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "github.com/aungkoko/livescore-server/pb";
+
+message MatchEvent {
+  string event_id = 1;
+  string event_type = 2;
+  string description = 3;
+}
+
+service LiveScore {
+  rpc StreamMatchEvents (stream MatchEvent) returns (stream MatchEvent);
+}
